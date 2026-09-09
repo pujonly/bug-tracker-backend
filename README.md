@@ -33,32 +33,38 @@ The robust, high-performance backend API for the Full-Stack Bug Tracker applicat
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/username-mu/bug-tracker-backend.git](https://github.com/username-mu/bug-tracker-backend.git)
+git clone https://github.com/username-mu/bug-tracker-backend.git
 cd bug-tracker-backend
 ```
 
 ### 2. Create & Activate Virtual Environment 
 ```bash
 python -m venv venv
+```
 # On Windows:
 ```bash
 venv\Scripts\activate
+```
 # On macOS/Linux:
 ```bash
 source venv/bin/activate
+```
 
 ### 3. Install Dependency
 ```bash
 pip install -r requirements.txt
+```
 
 ### 4. Configure Database
 * Set up your local PostgreSQL database, then import the database schema structure from the file located at /database/bug_tracker.sql to set up tables and audit triggers. Configure your connection string inside your database configuration file:
 ```bash
 DATABASE_URL = "postgresql://username:password@localhost:5432/database_name"
+```
 
 ### 5. Run the Development Server
 ```bash
 uvicorn main:app --reload
+```
 * The server will start at http://127.0.0.1:8000. You can access the interactive API docs at http://127.0.0.1:8000/docs.
 
 ---
