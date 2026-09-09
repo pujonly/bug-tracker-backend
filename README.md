@@ -35,6 +35,7 @@ The robust, high-performance backend API for the Full-Stack Bug Tracker applicat
 ```bash
 git clone [https://github.com/username-mu/bug-tracker-backend.git](https://github.com/username-mu/bug-tracker-backend.git)
 cd bug-tracker-backend
+```
 
 ### 2. Create & Activate Virtual Environment 
 ```bash
