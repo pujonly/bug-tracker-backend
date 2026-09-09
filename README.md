@@ -60,6 +60,7 @@ pip install -r requirements.txt
 ```bash
 DATABASE_URL = "postgresql://username:password@localhost:5432/database_name"
 ```
+* You can take the database schema on folder  "/database/bug_tracker.db"
 
 ### 5. Run the Development Server
 ```bash
